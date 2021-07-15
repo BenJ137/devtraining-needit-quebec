@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category">
+    <sys_properties_category action="INSERT_OR_UPDATE">
+        <name>NeedIt Properties</name>
+        <sys_class_name>sys_properties_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-15 19:19:09</sys_created_on>
+        <sys_id>6c2ee076db1530109b97b7e8f4961954</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedIt Properties</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_properties_category_6c2ee076db1530109b97b7e8f4961954</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-15 19:19:09</sys_updated_on>
+        <title><![CDATA[<p><span style="text-decoration: underline;"><span style="font-size: 24pt;"><strong><span style="color: #ff0000; text-decoration: underline;">BU</span><span style="color: #ff6600; text-decoration: underline;">Y</span><span style="color: #ffcc00; text-decoration: underline;"> M</span><span style="color: #339966; text-decoration: underline;">OR</span><span style="color: #0000ff; text-decoration: underline;">E </span><span style="color: #333399; text-decoration: underline;">SA<span style="color: #800080; text-decoration: underline;">IN</span></span><span style="color: #993366; text-decoration: underline;">TS</span> QUAZTZ</strong></span></span></p>
+<p><span style="font-size: 14pt;">Your Waifu&#39;s are waiting for <strong>YOU!!!</strong></span></p>
+<p><span style="font-size: 12pt;">You just need to buy SQ and roll till you get them</span></p>]]></title>
+    </sys_properties_category>
+    <sys_translated_text action="delete_multiple" query="documentkey=6c2ee076db1530109b97b7e8f4961954"/>
+</record_update>
