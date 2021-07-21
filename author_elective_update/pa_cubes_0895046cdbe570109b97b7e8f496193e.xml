@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_cubes">
+    <pa_cubes action="DELETE">
+        <benchmarking>false</benchmarking>
+        <calendar>standard</calendar>
+        <calendar_freq/>
+        <conditions table="x_58872_needit_needit">u_when_neededONThis week@javascript:gs.beginningOfThisWeek()@javascript:gs.endOfThisWeek()<item endquery="false" field="u_when_needed" goto="false" newquery="false" operator="ON" or="false" value="This week@javascript:gs.beginningOfThisWeek()@javascript:gs.endOfThisWeek()"/>
+        </conditions>
+        <description>Active NeedIt Requests this week </description>
+        <facts_table>x_58872_needit_needit</facts_table>
+        <facts_table_pk/>
+        <facts_table_pktable/>
+        <facts_table_pkview/>
+        <frequency>20</frequency>
+        <max_record_fetch_count>50000</max_record_fetch_count>
+        <name>NeedIt.ActiveWeekly</name>
+        <override_record_collection>false</override_record_collection>
+        <report_source display_value="Active NeedIt Requests (NeedIt)">85383a864fa21300874e8020a310c777</report_source>
+        <report_source_updated_at>2021-07-21 09:47:55</report_source_updated_at>
+        <sys_class_name>pa_cubes</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-21 02:49:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0895046cdbe570109b97b7e8f496193e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedIt.ActiveWeekly</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>pa_cubes_0895046cdbe570109b97b7e8f496193e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-21 02:49:33</sys_updated_on>
+    </pa_cubes>
+    <sys_translated_text action="DELETE" query="documentkey=0895046cdbe570109b97b7e8f496193e"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>84c366e7db375fc07e55d5b0cf9619fa</instance_id>
+        <instance_name>dev70392</instance_name>
+        <name>pa_cubes_0895046cdbe570109b97b7e8f496193e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_cubes"><pa_cubes action="INSERT_OR_UPDATE"><benchmarking>false</benchmarking><calendar>standard</calendar><calendar_freq/><conditions table="x_58872_needit_needit">u_when_neededONThis week@javascript:gs.beginningOfThisWeek()@javascript:gs.endOfThisWeek()<item endquery="false" field="u_when_needed" goto="false" newquery="false" operator="ON" or="false" value="This week@javascript:gs.beginningOfThisWeek()@javascript:gs.endOfThisWeek()"/></conditions><description>Active NeedIt Requests this week </description><facts_table>x_58872_needit_needit</facts_table><facts_table_pk/><facts_table_pktable/><facts_table_pkview/><frequency>20</frequency><max_record_fetch_count>50000</max_record_fetch_count><name>NeedIt.ActiveWeekly</name><override_record_collection>false</override_record_collection><report_source display_value="Active NeedIt Requests (NeedIt)">85383a864fa21300874e8020a310c777</report_source><report_source_updated_at>2021-07-21 09:47:55</report_source_updated_at><sys_class_name>pa_cubes</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-07-21 02:49:33</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>0895046cdbe570109b97b7e8f496193e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>NeedIt.ActiveWeekly</sys_name><sys_overrides/><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>pa_cubes_0895046cdbe570109b97b7e8f496193e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-07-21 02:49:33</sys_updated_on></pa_cubes><sys_translated_text action="delete_multiple" query="documentkey=0895046cdbe570109b97b7e8f496193e"/></record_update>]]></payload>
+        <payload_hash>885894738</payload_hash>
+        <record_name>NeedIt.ActiveWeekly</record_name>
+        <reverted_from/>
+        <source>4ea92c72db1530109b97b7e8f4961995</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-21 02:49:33</sys_created_on>
+        <sys_id>c81600acdbe570109b97b7e8f496199b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17ac6f7e7a40000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-21 02:49:33</sys_updated_on>
+        <type>Indicator Source</type>
+        <update_guid>041600ac10e57010aef108d27a4dce9b</update_guid>
+        <update_guid_history>041600ac10e57010aef108d27a4dce9b:885894738</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="NeedIt.ActiveWeekly">3a76c8acdbe570109b97b7e8f49619dd</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-21 02:51:22</sys_created_on>
+        <sys_db_object display_value="" name="pa_cubes">pa_cubes</sys_db_object>
+        <sys_id>0704d3407ac14ff8815928449efb7910</sys_id>
+        <sys_metadata>0895046cdbe570109b97b7e8f496193e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedIt.ActiveWeekly</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>pa_cubes_0895046cdbe570109b97b7e8f496193e</sys_update_name>
+        <sys_update_version display_value="pa_cubes_0895046cdbe570109b97b7e8f496193e">c81600acdbe570109b97b7e8f496199b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-21 02:51:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
